@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font awesome link-->
+    <script src="https://kit.fontawesome.com/b7fa013ac5.js" crossorigin="anonymous"></script>
+    <!--Font awesome cdnjs-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Home</title>
+</head>
+<body>
+<div>
+                        <!--Navbar-->
+    <div class="navbar-fixed">
+        <nav class="black">
+            <div class="nav-wrapper">
+            <div class="container">
+                <a href="" class="brand-logo center">Sakura Chronicles</a>
+                <a href="" class="sidenav-trigger" data-target="mobile-demo">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html"> <i class="fa-solid fa-house-chimney"></i></a></li>
+            <li><a href="https://discord.gg/GAZq2Qdc"> <i class="fa-brands fa-discord"></i></a></li>
+            <li><a href="mailto:tineholgads@gmail.com"> <i class="fa-regular fa-envelope"></i></a></li>
+            
+            </ul>
+            </div>
+            </div>
+        </nav>
+    </div>
+    
+    <!--Sidenav Structure-->
+    <ul class="sidenav black white-text" id="mobile-demo">
+        <li><h4 class="center align"><Strong>Contents</Strong></h4></li>
+        <div class="divider white white-text"></div>
+        <li><a href="index.html" class="white-text"><i class="fa-solid fa-house-chimney white-text"></i>Home</a></li>
+        <li><a href="touristdestination.html" class="white-text"><i class="fa-solid fa-earth-americas white-text"></i>Tourist Destinations</a></li>
+        <li><a href="culture.html" class="white-text"><i class="fa-brands fa-d-and-d white-text"></i>Culture & Myths</a></li>
+    <li><a href="aboutus.html" class="white-text"><i class="fa-solid fa-magnifying-glass white-text"></i></i>About Us</a></li>
+    </ul>
+
+
+                        <!--Slider-->
+<br>
+
+<img src="images/img5.jpg" alt="" class="materialboxed responsive-img">
+<div class="container">
+        <h4 class="center">Welcome to Sakura Chronicles!</h4>
+    <p>Welcome to <strong>Sakura Chronicles</strong>, your ultimate guide to exploring the wonders of Japan in all their vibrant forms. From the savory delights of authentic cuisine to the rich tapestry of culture, breathtaking tourist destinations, and captivating myths that have shaped this incredible nation, we invite you to embark on a journey like no other. Whether you're planning your next adventure, seeking culinary inspiration, or simply curious about the legends that have endured for centuries, you'll find it all here. Let us be your gateway to the timeless beauty and fascinating stories of Japan!
+    </p>
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="images/img1.jpg" alt="">
+                <div class="caption">
+                    <h2>Tourist Spots</h2>
+                </div>
+                
+            </li>
+            <li>
+                <img src="images/img2.jpg" alt="">
+                <div class="caption left-align">
+                    <h2>Culture</h2>
+                </div>
+                
+            </li>
+            <li>
+                <img src="images/img3.jpg" alt="">
+                <div class="caption center-align">
+                    <h2>Delicacies</h2>
+                </div>
+                
+            </li>
+            <li>
+                <img src="images/img4.jpg" alt="">
+                <div class="caption right-align">
+                    <h2>Mythology</h2>
+                </div>
+                
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+                    <!--Table of Contents-->
+                
+
+
+
+
+
+
+    <!--JQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--materialbox-->
+    <script>$(document).ready(function(){
+        $('.materialboxed').materialbox();
+    });</script>
+    <!--slider-->-
+    <script>  $(document).ready(function(){
+        $('.slider').slider({
+            duration: 2000,
+            interval: 900
+        });
+      });</script>
+      <!--Side nav-->
+      <script> $(document).ready(function(){
+        $('.sidenav').sidenav();
+      });</script>
+
+      <!--tabs-->
+      <script> $(document).ready(function(){
+        $('.tabs').tabs();
+      });</script>
+
+
+</body>
+</html>
